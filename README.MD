@@ -1,8 +1,4 @@
-Certainly! Here's how you can integrate the missing explanations about the necessity of data transformations and the decision not to use partitioning or clustering in BigQuery into your README:
-
----
-
-# Project Title
+# Airbnb Market Analysis
 
 ## Overview
 This project demonstrates an end-to-end data pipeline from data ingestion to visualization, focusing on real estate datasets. It involves enriching geolocation data and performing transformations using PySpark before loading the processed data into Google BigQuery for analysis and visualization through a dashboard in Looker Studio.
@@ -33,7 +29,7 @@ The SQL queries used for dimensional modeling are located in the `queries` folde
 Visualize the insights from the data through our Looker Studio dashboard:
 [View Dashboard](https://lookerstudio.google.com/reporting/1a13f585-f2c8-4d6d-b69c-e6d9d35b14ed)
 
-![Dashboard Screenshot](![Dashboard](https://github.com/GiuseppeBruno-Py/Airbnb-Market-Analysis/assets/91219935/4bc70c90-58f2-405a-9065-119675e25ed9))
+![Dashboard](https://github.com/GiuseppeBruno-Py/Airbnb-Market-Analysis/assets/91219935/175f08cd-cb66-4193-9d95-c02ff9371023)
 
 ## Data Modeling in BigQuery
 The dimensional modeling in Google BigQuery includes:
